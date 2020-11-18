@@ -58,7 +58,7 @@ The project was developed using the following technologies
 1. Make a clone :
 
 ```sh
-  $ git clone https://github.com/vitorserrano/ecoleta.git
+  $ git clone https://github.com/gabrielnogueiralt/ecoleta.git
 ```
 
 2. Running the Application:
