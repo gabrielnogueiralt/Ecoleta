@@ -1,7 +1,8 @@
 <h3 align="center">
     <img alt="Logo" title="#logo" width="300px" src=".github/logo.png">
     <br><br>
-    <b>Recycle! help the environment!</b> 
+    <b>Recicle! ajude o meio ambiente!</b>  
+    <br>
 </h3>
 
 <p align="center">
@@ -9,100 +10,117 @@
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
   </a>
   <a>
-  <img alt="License" src="https://img.shields.io/github/license/gabrielnogueiralt/ecoleta?color=%237519C1">
+  <img alt="License" src="https://img.shields.io/github/license/vitorserrano/ecoleta?color=%237519C1">
+  <br><br>
+  <a href="https://insomnia.rest/run/?label=Ecoleta&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fvitorserrano%2Fecoleta%2Fmaster%2F.github%2FInsomnia_2020-06-05.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
-# Index
+# Índice
 
-- [About](#about)
-- [Documentation](#cocumentation)
-- [Technologies used](#technologies-used)
-- [How to use](#how-to-use)
-- [How to contribute](#how-to-contribute)
+- [Sobre](#sobre)
+- [Documentação](#documentacao)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Usar](#como-usar)
+- [Como Contribuir](#como-contribuir)
 
-<a id="about"></a>
+<a id="sobre"></a>
 
-## :bookmark: About
+## :bookmark: Sobre
 
-The <strong>Ecoleta</strong> is a Web and Mobile application to help people find collection points for recycling.
+O <strong>Ecoleta</strong> é uma aplicação Web e Mobile para ajudar pessoas a encontrarem pontos de coleta para reciclagem.
 
-This application was built on the trail <strong>Booster</strong> of <strong>Next Level Week</strong> distributed by [Rocketseat](https://rocketseat.com.br/). The idea of creating an application focused on the environment arose from the coincidence of the course date and the date of the <strong>environment week</strong>
+Essa aplicação foi construída na trilha <strong>Booster</strong> da <strong>Next Level Week</strong> distribuída pela [Rocketseat](https://rocketseat.com.br/). A ideia de criar uma aplicação voltada ao meio ambiente surgiu da coincidência da data do curso e a data da <strong>semana do meio ambiente</strong>
 
-<a id="documentation"></a>
+<a id="documentacao"></a>
 
-## :books: Documentation
+## :books: Documentação
 
-To reinforce some concepts and record commands that are difficult to remember I made a small **[DOCUMENTATION](DOCUMENTATION.md)** to help anyone who is starting with **TypeScript**, **Node**, **ReactJS** e **React Native**.
+Para reforçar alguns conceitos e registrar comandos que são dificeis de se lembrar eu fiz uma pequena **[DOCUMENTAÇÃO](DOCUMENTATION.md)** para ajudar quem esta iniciando com **TypeScript**, **Node**, **ReactJS** e **React Native**.
 
-<a id="technologies-used"></a>
+<a id="tecnologias-utilizadas"></a>
 
-## :rocket: Technologies used
+## :rocket: Tecnologias Utilizadas
 
-The project was developed using the following technologies
+O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [Node.js](https://nodejs.org/en/)
 - [ReactJS](https://reactjs.org/)
 - [React Native](https://reactnative.dev/)
 
-<a id="how-to-use"></a>
+## :heavy_check_mark: :computer: Resultado Web
 
-## :fire: How to use
+- O layout está disponível no **[Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/)**;
 
-- ### **Prerequisites**
+<h1 align="center">
+    <img alt="Web" src=".github/Video.gif" width="900px">
+</h1>
 
-  - It is ** necessary ** to have the **[Node.js](https://nodejs.org/en/)** installed on the machine
-  - Also, it is ** necessary ** to have a package manager **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**.
-  - Finally, it is ** essential ** to have the **[Expo](https://expo.io/)** globally installed on the machine
+## :heavy_check_mark: :iphone: Resultado Mobile
 
-1. Make a clone :
+<h1 align="center">
+    <img alt="Mobile Home" src=".github/Home.png" width="300px">
+    <img alt="Mobile Detail" src=".github/Detail.svg" width="300px">
+</h1>
+
+<a id="como-usar"></a>
+
+## :fire: Como usar
+
+- ### **Pré-requisitos**
+
+  - É **necessário** possuir o **[Node.js](https://nodejs.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes seja o **[NPM](https://www.npmjs.com/)** ou **[Yarn](https://yarnpkg.com/)**.
+  - Por fim, é **essencial** ter o **[Expo](https://expo.io/)** instalado de forma global na máquina
+
+1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/gabrielnogueiralt/ecoleta.git
+  $ git clone https://github.com/vitorserrano/ecoleta.git
 ```
 
-2. Running the Application:
+2. Executando a Aplicação:
 
 ```sh
-  # Install the dependencies
+  # Instale as dependências
   $ npm install
 
-  ## Create the database
+  ## Crie o banco de dados
   $ cd server
   $ npm run knex:migrate
   $ npm run knex:seed
 
-  # Start the API
+  # Inicie a API
   $ npm run dev
 
-  # Launch the web application
+  # Inicie a aplicação web
   $ cd web
   $ npm start
 
-  # Launch the mobile application
+  # Inicie a aplicação mobile
   $ cd mobile
   $ npm start
 ```
 
-<a id="how-to-contribute"></a>
+<a id="como-contribuir"></a>
 
-## :recycle: How to contribute
+## :recycle: Como contribuir
 
-- Fork this repository,
-- Create a branch with your feature: `git checkout -b my-feature`
-- Commit your changes: `git commit -m 'feat: My new feature'`
-- Push your branch: `git push origin my-feature`
+- Faça um Fork desse repositório,
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
 
-## :mortar_board: Who taught?
+## :mortar_board: Quem ministrou?
 
-The classes were taught by **[Mayk Brito]** in classes of **Next Level Week**.
+As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/diego3g)** nas aulas da **Next Level Week**.
 
 ## :memo: License
 
-This project is under the MIT license. See the archive [LICENSE](LICENSE.md) for more details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
 
 <h4 align="center">
-    Done with 💜 by <a href="https://www.linkedin.com/in/gabriel-n-132451122/" target="_blank">Gabriel Nogueira</a>
+    Feito com 💜 by <a href="https://www.linkedin.com/in/vitor-serrano/" target="_blank">Vitor Serrano</a>
 </h4>
