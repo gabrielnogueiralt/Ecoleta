@@ -76,7 +76,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/gabrielnogueiralt/ecoleta.git
+  $ git clone https://github.com/vitorserrano/ecoleta.git
 ```
 
 2. Executando a Aplicação:
@@ -120,3 +120,7 @@ As aulas foram ministradas pelo mestre **[Diego Fernandes](https://github.com/di
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
 ---
+
+<h4 align="center">
+    Feito com 💜 by <a href="https://www.linkedin.com/in/vitor-serrano/" target="_blank">Vitor Serrano</a>
+</h4>
